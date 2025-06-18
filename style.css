@@ -213,6 +213,13 @@ section {
   height: 2rem;
 }
 
+/* Larger icons inside buttons only */
+.btn .icon {
+  height: 2.5rem; /* increase size */
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
 /* BUTTONS */
 
 .btn-container {

@@ -100,4 +100,15 @@
   .text-container {
     text-align: justify;
   }
+  .btn-container {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .btn-container .btn {
+    width: 100%;
+    font-size: 1.1rem;
+  }
 }
