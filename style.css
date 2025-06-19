@@ -211,13 +211,22 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  width: 2rem;
+  object-fit: contain;
 }
 
 /* Larger icons inside buttons only */
 .btn .icon {
-  height: 2.5rem; /* increase size */
+  height: 1.5rem;
+  width: 2.5rem;
   margin-right: 0.5rem;
   vertical-align: middle;
+  object-fit: contain;
+}
+
+.yt-icon {
+  transform: scale(1.65);      /* grossissement de 20 % */
+  transform-origin: center;
 }
 
 /* BUTTONS */
